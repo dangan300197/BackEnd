@@ -1,0 +1,11 @@
+git init                           khởi tạo dự án git
+git add .                     
+git commit -m "nội dung"
+git log                            xem lại nội dung vừa commit
+:q                                 trở lại interminal chính
+git checkout                       câu lệnh rẽ nhánh, tìm và chuyển nhánh
+===================================================================================
+noteJs là đơn luồng , được viết bằng c++ nó có thể sử lý nhiều việc cùng một lúc
+ưu điểm sử lý những web có lượng truy cập lớn
+===================================================================================
+

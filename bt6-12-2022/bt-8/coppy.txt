@@ -1,0 +1,7 @@
+// Bài 8:
+// 	a, Tthư mục có file bất kỳ, hãy dùng fs để tạo ra bản sao của file đó
+// 	b, Cho 1 file định dạng bất kỳ (ảnh, video,exel...) hãy dùng fs để tạo ra bản sao của file đó
+
+const fs = require("fs");
+
+fs.copyFile("demo.js", "coppy.txt", function () {});
