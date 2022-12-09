@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.3.0"
+  }
+}

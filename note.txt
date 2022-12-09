@@ -9,3 +9,10 @@ noteJs là đơn luồng , được viết bằng c++ nó có thể sử lý nhi
 ưu điểm sử lý những web có lượng truy cập lớn
 ===================================================================================
 
+
+client ======> server
+             ===>  requestion
+               respontion <===
+
+puppeteer      mô phỏng lại trình duyệt chrome 
+                        

@@ -28,7 +28,7 @@ const fs = require("fs");
 // console.log(process.argv[2] + process.argv[3]);
 const { exec, execFile, fork, spawn } = require("child_process");
 
-exec("ls", function (err, stdout) {
-  console.log(stdout);
-});
-console.log(exec);
+// exec("start chrome http://localhost:3000", function (err, stdout) {
+//   console.log(stdout);
+// });
+// console.log(exec);
