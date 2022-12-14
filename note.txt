@@ -9,10 +9,22 @@ noteJs là đơn luồng , được viết bằng c++ nó có thể sử lý nhi
 ưu điểm sử lý những web có lượng truy cập lớn
 ===================================================================================
 
-
 client ======> server
              ===>  requestion
                respontion <===
 
 puppeteer      mô phỏng lại trình duyệt chrome 
-                        
+
+==========================================================================================
+
+NoSQL:mongodb               linh động, có thể chỉnh sửa, truy xuất dữ liệu nhanh hơn, 
+                            thích hợp cho việc lưu tin nhắn chat, các tính năng không yêu cầu độ bảo mật cao
+
+
+mySQL:RDBMS                 quan hệ giữa các bảng chặt chẽ, an toàn hơn,các cấu trúc cứng, lưu trữ data dữ lượng lớn
+====================================================================================================
+mongod                      kết nối với mongocombat
+show dbs                    lấy toàn bộ tên các dự án có trong mongocombat
+db.student.insert({"name":"an","age":"20"})     tạo tên, tuổi
+db.student.find()                               kiểm tra
+                       
