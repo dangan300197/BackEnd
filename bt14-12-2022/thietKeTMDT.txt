@@ -1,0 +1,30 @@
+
+User:
+          userName
+          password
+          address
+          avatar
+          phone
+          gender
+          age
+
+Product:
+          productName
+          quantity
+          brand
+          price
+          img_name
+          img_path
+category:
+          categoryName
+          product_id
+
+comment:
+          user_id
+          product_id
+          content
+
+order
+          user_id
+          product_id
+         
